@@ -7,7 +7,7 @@
     this.elm_result = $$('result');
     this.elm_search_result = $$('search_list_result');
 
-    // 获取根路径
+    //获取根路径
     this.root_path = (function () {
       var elm_path = $$('current_path');
       var url = window.location.origin + window.location.pathname;
